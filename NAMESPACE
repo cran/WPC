@@ -1,0 +1,7 @@
+import("survival","msm")
+importFrom("grDevices", "adjustcolor")
+importFrom("graphics", "abline", "legend", "plot", "points", "polygon")
+importFrom("stats", "dnorm", "loess", "na.omit", "predict") 
+export("DuoWPCCurve","SoloWPCCurve","TrioWPCCurve","DuoScattorPlot","SoloScattorPlot","TrioScattorPlot","npr.wpc.est","cox.wpc.est","surv.rate","ns.windows","ww.windows")
+
+
